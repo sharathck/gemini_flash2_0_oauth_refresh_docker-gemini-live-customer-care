@@ -12,9 +12,8 @@ const PROXY_URL = window.location.host.includes('8077')
         ? "wss://live-agent-refresh-rz6cgfhcgq-uc.a.run.app/wss"
         : "ws://localhost:8000/ws";
 const PROJECT_ID = "reviewtext-ad5c6";
-const MODEL = "gemini-live-2.5-flash-preview-native-audio";
-//const MODEL = "gemini-2.0-flash-live-preview-04-09";
-//const MODEL = "gemini-2.5-flash-preview-native-audio-dialog";
+//const MODEL = "gemini-live-2.5-flash-preview-native-audio";
+const MODEL = "gemini-2.0-flash-live-preview-04-09";
 const API_HOST = "us-central1-aiplatform.googleapis.com";
 
 
